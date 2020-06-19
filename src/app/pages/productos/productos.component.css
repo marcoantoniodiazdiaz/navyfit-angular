@@ -1,0 +1,10 @@
+i {
+    color: orange;
+}
+
+.cajaColor {
+    background-color: #f78123;
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
