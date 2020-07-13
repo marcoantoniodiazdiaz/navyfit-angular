@@ -4,3 +4,11 @@
 * {
     font-family: 'Roboto', sans-ser letter-spacing 0;
 }
+
+input {
+    border-radius: 10px !important;
+}
+
+.btn {
+    border-radius: 100px;
+}

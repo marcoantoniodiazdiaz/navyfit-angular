@@ -42,3 +42,13 @@
 h1 {
     color: white;
 }
+
+.btn-signin {
+    background-color: white;
+    color: black;
+}
+
+.btn-login {
+    background-color: rgb(253, 243, 49);
+    color: black;
+}

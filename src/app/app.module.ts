@@ -8,7 +8,6 @@ import { InicioComponent } from './pages/inicio/inicio.component';
 import { ProductosComponent } from './pages/productos/productos.component';
 import { DetalleComponent } from './pages/detalle/detalle.component';
 import { NosotrosComponent } from './pages/nosotros/nosotros.component';
-import { NgbCarouselConfig } from '@ng-bootstrap/ng-bootstrap';
 import { AdministradorComponent } from './pages/administrador/administrador.component';
 import { LoginComponent } from './pages/login/login.component';
 

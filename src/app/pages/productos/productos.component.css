@@ -8,3 +8,7 @@ i {
     height: 15px;
     margin-right: 5px;
 }
+
+.btn {
+    border-radius: 0px !important;
+}
