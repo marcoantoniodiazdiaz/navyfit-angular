@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import * as $ from 'jquery';
+import {NgbCarouselConfig} from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
   selector: 'app-detalle',
@@ -8,8 +10,13 @@ import { Component, OnInit } from '@angular/core';
 export class DetalleComponent implements OnInit {
 
   constructor() { }
+  currentSlide: number;
+  nextSlide: number;
+  $carousel = $('.carousel');
 
   ngOnInit() {
+
   }
+
 
 }
