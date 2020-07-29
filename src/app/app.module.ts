@@ -11,7 +11,11 @@ import { NosotrosComponent } from './pages/nosotros/nosotros.component';
 import { AdministradorComponent } from './pages/administrador/administrador.component';
 import { LoginComponent } from './pages/login/login.component';
 
-import { FormsModule, ReactiveFormsModule } from '@angular/forms'
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { PoliticasComponent } from './pages/politicas/politicas.component';
+import { AceptacionComponent } from './pages/aceptacion/aceptacion.component';
+import { CrearcuentaComponent } from './pages/crearcuenta/crearcuenta.component';
+import { ContranuevaComponent } from './pages/contranueva/contranueva.component'
 
 @NgModule({
   declarations: [
@@ -23,7 +27,11 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms'
     DetalleComponent,
     NosotrosComponent,
     AdministradorComponent,
-    LoginComponent
+    LoginComponent,
+    PoliticasComponent,
+    AceptacionComponent,
+    CrearcuentaComponent,
+    ContranuevaComponent
   ],
   imports: [
     BrowserModule,

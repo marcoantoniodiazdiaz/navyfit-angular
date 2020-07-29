@@ -1,0 +1,58 @@
+.body {
+    background-image: url(../../../assets/img/contra.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.fondocss {
+    filter: brightness(0.4);
+    position: fixed;
+    min-width: 100%;
+    /* max-width: 100%; */
+    min-height: 100% !important;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-40%);
+    z-index: -1;
+}
+
+* {
+    text-transform: none;
+    letter-spacing: normal;
+}
+
+.form-control {
+    font-size: 120%;
+}
+
+.card {
+    border-radius: 20px;
+}
+
+.content {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+}
+
+h1 {
+    color: white;
+}
+
+.btn-signin {
+    background-color: white;
+    color: black;
+}
+
+.btn-login {
+    background-color: rgb(49, 205, 253);
+    color: black;
+}
+
+a {
+    color: white
+}

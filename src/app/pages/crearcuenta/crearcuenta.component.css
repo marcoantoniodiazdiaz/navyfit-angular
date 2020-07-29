@@ -1,0 +1,56 @@
+.fondocss {
+    filter: brightness(0.4);
+    position: fixed;
+    min-width: 180%;
+    min-height: 100% !important;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-40%);
+    z-index: -1;
+}
+
+* {
+    text-transform: none;
+    letter-spacing: normal;
+}
+
+.form-control {
+    font-size: 105%;
+}
+
+.card {
+    border-radius: 30px;
+}
+
+.content {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+}
+
+
+.btn-signin {
+    background-color: white;
+    color: black;
+}
+
+.btn-login {
+    background-color: lightgreen;
+    color: black;
+}
+.body {
+    background-image: url(../../../assets/img/crear-1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.input-group-prepend span{
+width: 50px;
+background-color: #FFC312;
+color: black;
+border:0 !important;
+}
+
